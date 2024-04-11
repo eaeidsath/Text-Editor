@@ -1,5 +1,4 @@
 import { openDB } from 'idb';
-import { restart } from 'nodemon';
 
 const initdb = async () =>
   openDB('jate', 1, {
